@@ -1,0 +1,36 @@
+{
+    "opts": {
+        "template": "node_modules/tui-jsdoc-template"
+    },
+    "plugins": [
+        "plugins/markdown"
+    ],
+    "docdash": {
+        "static": true,
+        "sort": true,
+        "search": true,
+        "collapse": true,
+        "typedefs": true,
+        "removeQuotes": "none",
+        "scripts": [],
+        "menu":{
+         "Project Website": {
+                "href":"https://myproject.com",
+                "target":"_blank",
+                "class":"menu-item",
+                "id":"website_link"
+            },
+            "Forum": {
+                "href":"https://myproject.com.forum",
+                "target":"_blank",
+                "class":"menu-item",
+                "id":"forum_link"
+            }
+        }
+    },
+    "templates": {
+        "default": {
+            "useLongnameInNav": true
+        }
+    }
+}
